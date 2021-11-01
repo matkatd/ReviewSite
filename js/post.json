@@ -1,6 +1,68 @@
 [
     {
-        "title": "Review", "date": "10/23/2021", "author": "David", "content": "lorem ipsum", "image": "image.jpg", "summary": "text" 
-    }
-    
+        "slug" : "article1", "title": "Review", "category": "hiking", "date": "10/23/2021", "author": "David", "content": [{
+            "sectionHeadline" : "headline1",
+            "paragraphs" : [
+                "stringOfCharacters......",
+                "Hey here's some more characters!"
+            ]
+        },
+        {
+            "sectionHeadline" : "headline2",
+            "paragraphs" : [
+                "stringOfCharacters......",
+                "Hey here's some more characters!"
+            ]
+        }], "image": "images/ospreyPack@0.5x.jpg", "alt" : "Osprey backpack", "summary": "text" 
+    },
+    {
+        "slug" : "article2", "title": "Review", "category": "hiking", "date": "10/23/2021", "author": "David", "content": [{
+            "sectionHeadline" : "headline1",
+            "paragraphs" : [
+                "stringOfCharacters......",
+                "Hey here's some more characters!"
+            ]
+        },
+        {
+            "sectionHeadline" : "headline2",
+            "paragraphs" : [
+                "stringOfCharacters......",
+                "Hey here's some more characters!"
+            ]
+        }], "image": "image.jpg", "alt" : "alt text", "summary": "text" 
+    },
+    {
+        "slug" : "article3", "title": "Review", "category": "biking", "date": "10/23/2021", "author": "David", "content": [{
+            "sectionHeadline" : "headline1",
+            "paragraphs" : [
+                "stringOfCharacters......",
+                "Hey here's some more characters!"
+            ]
+        },
+        {
+            "sectionHeadline" : "headline2",
+            "paragraphs" : [
+                "stringOfCharacters......",
+                "Hey here's some more characters!"
+            ]
+        }], "image": "image.jpg", "alt" : "alt text", "summary": "text" 
+    },
+    {
+        "slug" : "article4", "title": "Review", "category": "biking", "date": "10/23/2021", "author": "David", "content": [{
+            "sectionHeadline" : "headline1",
+            "paragraphs" : [
+                "stringOfCharacters......",
+                "Hey here's some more characters!"
+            ]
+        },
+        {
+            "sectionHeadline" : "headline2",
+            "paragraphs" : [
+                "stringOfCharacters......",
+                "Hey here's some more characters!"
+            ]
+        }], 
+        "image": "image.jpg", "alt" : "alt text", "summary": "text" 
+    }  
 ]
+

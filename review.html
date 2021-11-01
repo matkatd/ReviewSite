@@ -4,30 +4,49 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Example Review</title>
+    <script src="js/review.js" type="module"></script>
+    <title>Example Review | Precipice Ponderings</title>
   </head>
   <body>
-    <header><!--#include virtual="header.html"--></header>
+    <header>
+      <!--#include virtual="header.html"-->
+      <nav>
+        <h1><a href="index.html"> Precipice Ponderings</a></h1>
+        <ul id="topics">
+          <li>
+            Topics
+            <ul id="topics-menu">
+              <li><a href="landing.html">Biking</a></li>
+              <li><a href="camping.html">Camping</a></li>
+              <li><a href="climbing.html">Climbing</a></li>
+              <li><a href="hiking.html">Hiking</a></li>
+              <li><a href="water.html">Water</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <ul id="topics-desktop">
+          <li><a href="landing.html">Biking</a></li>
+          <li><a href="camping.html">Camping</a></li>
+          <li><a href="climbing.html">Climbing</a></li>
+          <li><a href="hiking.html">Hiking</a></li>
+          <li><a href="water.html">Water</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <h2>Osprey Pack</h2>
-      <img
-        src="images/ospreyPack@0.5x.jpg"
-        alt="An Osprey backpack in a slot canyon"
-      />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel
-        neque et neque tincidunt accumsan. Aenean tristique leo eget libero
-        condimentum varius. Fusce tristique nulla vitae lacus interdum congue.
-        Mauris tincidunt pulvinar turpis ut rhoncus. Praesent in purus in tortor
-        faucibus aliquet. Donec sagittis accumsan ligula id facilisis. Cras id
-        sollicitudin arcu. Ut eget odio pulvinar, tincidunt ante ut, pretium
-        magna. Sed dictum orci nulla, sit amet feugiat lorem pharetra vel. Morbi
-        in tellus sem. Duis fringilla venenatis lectus, vel accumsan tellus
-        viverra a. Donec vulputate, nisi non mollis mattis, quam nisi aliquam
-        leo, vitae fringilla leo metus quis odio. Praesent fermentum nisl vitae
-        tortor accumsan, quis consequat libero semper. Ut non vulputate lacus.
-        Aenean sit amet commodo lacus, ut faucibus diam.
-      </p>
+      <article id="mainArticle">
+        <img
+          src="images/ospreyPack@0.5x.jpg"
+          alt="An Osprey backpack in a slot canyon"
+        />
+        <h2 id="gearName">Osprey Pack</h2>
+        <hr />
+        <h3 id="authorName">By David Thompson</h3>
+        <h3 id="date">mm/dd/yy</h3>
+        <section></section>
+      </article>
     </main>
   </body>
 </html>

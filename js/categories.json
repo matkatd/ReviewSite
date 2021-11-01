@@ -1,0 +1,27 @@
+   {
+        "hiking" : {
+            "img" : "image.jpeg",
+            "alt" : "alt text",
+            "description" : "Hiking is pretty cool stuff"
+        },
+        "biking" : {
+            "img" : "image.jpeg",
+            "alt" : "alt text",
+            "description" : "Biking is pretty cool stuff"
+        },
+        "climbing" : {
+            "img" : "image.jpeg",
+            "alt" : "alt text",
+            "description" : "Climbing is pretty cool stuff"
+        },
+        "camping" : {
+            "img" : "image.jpeg",
+            "alt" : "alt text",
+            "description" : "Camping is pretty cool stuff"
+        },
+        "water" : {
+            "img" : "image.jpeg",
+            "alt" : "alt text",
+            "description" : "Water is pretty cool stuff"
+        }
+  }

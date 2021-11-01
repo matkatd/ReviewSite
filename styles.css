@@ -1,47 +1,150 @@
-/* Dropdown Button */
-.dropbtn {
-  background-color: #04aa6d;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+@font-face {
+  font-family: wandertucker;
+  src: url("fonts/wandertucker/Wandertucker.ttf");
+}
+@font-face {
+  font-family: existence;
+  src: url("fonts/existence/ExiL-T1/Existence-Light.PFB");
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
+@font-face {
+  font-family: LG-cafe;
+  src: url("fonts/louis_george_caf/Louis\ George\ Cafe.ttf");
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+:root {
+  --main-text-color: #707070;
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+  max-width: 1080px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+nav,
+footer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--main-text-color);
+}
+
+h1 {
+  font-family: wandertucker;
+  font-size: 300%;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: LG-cafe;
+}
+
+p {
+  font-family: LG-cafe;
+}
+
+a {
   text-decoration: none;
+  color: var(--main-text-color);
+}
+
+#home-hero {
+  min-width: 100%;
+}
+
+.overlay {
+  padding: 0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+
+.overlay > h2 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 10;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.5em;
+}
+
+.overlay > img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+ul {
+  /* display: flex; */
+  font-size: 25px;
+  list-style-type: none;
+  position: relative;
+}
+
+li {
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  font-family: existence;
+}
+
+#topics-menu {
+  display: none;
+  padding-left: 0px;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+#topics-desktop {
+  display: none;
+}
+
+nav li a:hover {
+  transition: color 0.3s ease;
+  color: black;
+}
+
+#topics:hover ul {
   display: block;
+  text-align: center;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
+.article {
+  border: 2px, solid, black;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+#mainArticle {
+  padding: 1em;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+#activityName {
+  text-transform: capitalize;
+}
+
+/* Problem: "topics" should disappear and the "topics-menu" items should list out horizontally */
+@media only screen and (min-width: 992px) {
+  #topics {
+    display: none;
+  }
+
+  #topics-desktop {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    font-size: 1.5em;
+    padding: 0px;
+  }
 }
