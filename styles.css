@@ -20,17 +20,21 @@
   box-sizing: border-box;
 }
 
+header {
+  box-shadow: 0px 5px 4px grey;
+}
+
 body {
   font-size: 1em;
   max-width: 1080px;
   margin: auto;
+  background-color: #f2f2f2;
 }
 
 img {
   max-width: 100%;
 }
 
-h1,
 nav,
 footer {
   text-align: center;
@@ -41,21 +45,58 @@ footer {
 
 h1 {
   font-family: wandertucker;
+
   font-size: 300%;
   margin-bottom: 0px;
+}
+
+#page-title {
+  color: #85a68e;
 }
 
 h2 {
   font-family: LG-cafe;
 }
 
+h3 {
+  font-family: LG-cafe;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 150%;
+}
+
 p {
   font-family: LG-cafe;
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 150%;
+  font-size: 125%;
 }
 
 a {
   text-decoration: none;
   color: var(--main-text-color);
+}
+
+#activityName {
+  color: #a69595;
+}
+
+#thumbnailGrid {
+  margin-top: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.thumbnail {
+  /* border: #a69595 solid 1px; */
+  background-color: white;
+}
+
+.thumbnail div {
+  padding: 0 0.5em;
 }
 
 #home-hero {
@@ -87,7 +128,7 @@ a {
 }
 
 ul {
-  /* display: flex; */
+  padding: 0px;
   font-size: 25px;
   list-style-type: none;
   position: relative;
@@ -134,9 +175,42 @@ nav li a:hover {
   text-transform: capitalize;
 }
 
-@media only screen and (min-width: 992px) {
+.bio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40% 10% 60%;
+  gap: 120px 20px;
+  font-size: 120%;
+}
+
+#bio-img {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  contain: strict;
+}
+
+.bio-text {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+#contact {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#number {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+@media only screen and (min-width: 768px) {
   #topics {
     display: none;
+  }
+
+  .bio-grid {
+    grid-gap: 20px 0px;
   }
 
   #topics-desktop {

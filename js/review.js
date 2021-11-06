@@ -1,7 +1,7 @@
 import DataService from "./dataService.js"
 import utils from "./utils.js"
 const myDataService = new DataService;
-
+ /** Dynamically builds a product review based on data in post.json */
 function buildReview(data) {
     document.querySelector("#gearName").textContent = data.title;
     document.querySelector("#authorName").textContent = data.author;
@@ -10,11 +10,13 @@ function buildReview(data) {
     document.querySelector("#mainArticle > img").alt = data.alt;
     const section = document.querySelector("#mainArticle > section");
     data.content.forEach(element => {
-        section.appendChild(builtSection(element));
+        section.appendChild(buildSection(element));
     });
 }
 
-function builtSection(data) {
+/** Builds a section of an article, 
+ * consisting of a headline and one or more paragraphs */
+function buildSection(data) {
     const newSection = document.createElement("section");
     newSection.innerHTML = `<h2>${data.sectionHeadline}</h2>`;
     const paraHTML = data.paragraphs.map((p) => `<p>${p}</p>`);

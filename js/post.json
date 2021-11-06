@@ -1,6 +1,51 @@
 [
     {
-        "slug" : "article1", "title": "Review", "category": "hiking", "date": "10/23/2021", "author": "David", "content": [{
+        "slug" : "kestrel", "title": "Osprey Kestrel 32", "category": "hiking", "date": "11/2/2021", "author": "David T", "content": [{
+            "sectionHeadline" : "Introduction",
+            "paragraphs" : [
+                "What’s in name? Well, when it comes to Osprey packs, quite a lot. Famous for their “All Mighty Guarantee” (which you’ll rarely need because of the bomber nature of their packs) an Osprey pack is a quality pack. One of my personal favorites is their Kestrel pack. I have the 32L size (they don’t make that size anymore, but the next closest model would be the Talon 33) and have LOVED it. It’s the perfect size for full day hikes, bike rides, ski trips, road trips, or any other kind of adventure you have in mind."
+            ]
+        },
+        {
+            "sectionHeadline" : "Features",
+            "paragraphs" : [
+                "The Kestrel is a bit of a “do-it-all” sort of pack. The aluminum inner frame paired with wide, plush hip pads make it a dream to wear, no matter how much you load it up. The airscape mesh ventilation works…better than having no ventilation. To be honest, it’s the one thing I’ve been disappointed with. Granted, I’ve never been able to find a backpack that doesn’t leave my back drenched after a few hours of hiking, but I was hoping that the legendary Osprey brand would be different.",
+                "Some of my favorite features include the stretchy mesh stuff pocket on the front, the daisy chain loops, and the large stretchy water bottle holders on either side. I’m a bit of a gear head, and things like these make it easy to bring everything I might need (and then some)."
+            ]
+        },
+        {
+            "sectionHeadline" : "Conclusion",
+            "paragraphs" : [
+                "I’ve had this pack since 2018 and have ABUSED it. I’ve taken it on almost every day-hike I’ve been on, and it has also become my climbing and canyoneering bag. After going through 10 sandstone slot canyons in the Zion area this summer, my Kestrel is finally starting to show some signs of use.",
+                "This is a fantastic backpack that will not disappoint. However, if you like traveling light, or primarily go on smaller outings, you may want to investigate a smaller pack. Otherwise, the Osprey Kestrel may be the pack for you."
+            ]
+        }
+        ], "image": "images/kestrel32_1080.jpg", "alt" : "Osprey backpack", "summary": "text" 
+    },
+    {
+        "slug" : "timberjack", "title": "Salsa Timberjack", "category": "biking", "date": "11/4/2021", "author": "David T", "content": [{
+            "sectionHeadline" : "Introduction",
+            "paragraphs" : [
+                "Hardtails are elite, prove me wrong.",
+                "Don't get me wrong, I totally understand the appeal of rolling like a fluffy cloud over rocks and roots on a full suspension bike, but there's something about a hardtail that's more, well, hardcore. ",
+                "While not the most hardcore of hardtails, the Salsa Timberjack GX1 (2017 model shown with 27.5+ wheels) is a playful cross-country style bike that can handle just about anything. Coming stock with a 120mm RockShox Recon suspension fork and a 1x11 chain set, the Timberjack sends hard and climbs quickly."
+            ]
+        },
+        {
+            "sectionHeadline" : "Experience",
+            "paragraphs" : [
+                "I’ve had my Timberjack for about 5 months now and have put over 200 miles on it so far. I’ve ridden it on loose gravel, dry packed dirt, dusty desert singletrack, and tacky wooded trails. My rides have been from 2 miles to almost 20 miles, and the Timberjack has handled beautifully every single time. While there have been times when I’ve envied full-suspension riders because my arms feel like jelly, I’ve never felt that my bike is what keeps me back, only my skill."
+            ]
+        },
+        {
+            "sectionHeadline" : "Conclusion",
+            "paragraphs" : [
+                "With the 2021 “entry level” Timberjack starting at only $1800 (and you can find older models closer to $1100) this bike is a steal. With all the features you need to start shredding gnar, the Timberjack will take you to the trails and beyond."
+            ]
+        }], "image": "images/SalsaTimberjack_2500.jpg", "alt" : "Black mountain bike in front of a trail sign in the woods", "summary": "text" 
+    },
+    {
+        "slug" : "1UP_flats", "title": "1Up Flats", "category": "biking", "date": "10/23/2021", "author": "David T", "content": [{
             "sectionHeadline" : "headline1",
             "paragraphs" : [
                 "stringOfCharacters......",
@@ -13,42 +58,10 @@
                 "stringOfCharacters......",
                 "Hey here's some more characters!"
             ]
-        }], "image": "images/ospreyPack@0.5x.jpg", "alt" : "Osprey backpack", "summary": "text" 
+        }], "image": "images/bikingSunset@0.5x.jpg", "alt" : "alt text", "summary": "text" 
     },
     {
-        "slug" : "article2", "title": "Review", "category": "hiking", "date": "10/23/2021", "author": "David", "content": [{
-            "sectionHeadline" : "headline1",
-            "paragraphs" : [
-                "stringOfCharacters......",
-                "Hey here's some more characters!"
-            ]
-        },
-        {
-            "sectionHeadline" : "headline2",
-            "paragraphs" : [
-                "stringOfCharacters......",
-                "Hey here's some more characters!"
-            ]
-        }], "image": "image.jpg", "alt" : "alt text", "summary": "text" 
-    },
-    {
-        "slug" : "article3", "title": "Review", "category": "biking", "date": "10/23/2021", "author": "David", "content": [{
-            "sectionHeadline" : "headline1",
-            "paragraphs" : [
-                "stringOfCharacters......",
-                "Hey here's some more characters!"
-            ]
-        },
-        {
-            "sectionHeadline" : "headline2",
-            "paragraphs" : [
-                "stringOfCharacters......",
-                "Hey here's some more characters!"
-            ]
-        }], "image": "image.jpg", "alt" : "alt text", "summary": "text" 
-    },
-    {
-        "slug" : "article4", "title": "Review", "category": "biking", "date": "10/23/2021", "author": "David", "content": [{
+        "slug" : "fixture", "title": "Giro Fixture", "category": "biking", "date": "10/23/2021", "author": "David T", "content": [{
             "sectionHeadline" : "headline1",
             "paragraphs" : [
                 "stringOfCharacters......",
@@ -62,7 +75,76 @@
                 "Hey here's some more characters!"
             ]
         }], 
-        "image": "image.jpg", "alt" : "alt text", "summary": "text" 
-    }  
+        "image": "images/fixture.jpeg", "alt" : "alt text", "summary": "text" 
+    } ,
+    {
+        "slug" : "ramblers", "title": "Astral Designs Rambler", "category": "hiking", "date": "10/23/2021", "author": "David T", "content": [{
+            "sectionHeadline" : "headline1",
+            "paragraphs" : [
+                "stringOfCharacters......",
+                "Hey here's some more characters!"
+            ]
+        },
+        {
+            "sectionHeadline" : "headline2",
+            "paragraphs" : [
+                "stringOfCharacters......",
+                "Hey here's some more characters!"
+            ]
+        }], 
+        "image": "images/ramblers_2500.jpg", "alt" : "alt text", "summary": "text" 
+    },
+    {
+        "slug" : "miuras", "title": "La Sportiva Miura Lace", "category": "climbing", "date": "10/23/2021", "author": "David T", "content": [{
+            "sectionHeadline" : "headline1",
+            "paragraphs" : [
+                "stringOfCharacters......",
+                "Hey here's some more characters!"
+            ]
+        },
+        {
+            "sectionHeadline" : "headline2",
+            "paragraphs" : [
+                "stringOfCharacters......",
+                "Hey here's some more characters!"
+            ]
+        }], 
+        "image": "images/miuras_2500.jpg", "alt" : "alt text", "summary": "text" 
+        },
+        {
+            "slug" : "fenix5", "title": "Garmin Fēnix 5", "category": "hiking", "date": "10/23/2021", "author": "David T", "content": [{
+                "sectionHeadline" : "headline1",
+                "paragraphs" : [
+                    "stringOfCharacters......",
+                    "Hey here's some more characters!"
+                ]
+            },
+            {
+                "sectionHeadline" : "headline2",
+                "paragraphs" : [
+                    "stringOfCharacters......",
+                    "Hey here's some more characters!"
+                ]
+            }], 
+            "image": "images/watch_2500.jpg", "alt" : "alt text", "summary": "text" 
+        },
+        {
+            "slug" : "crashpad", "title": "Black Diamond Crash Pad", "category": "climbing", "date": "10/23/2021", "author": "David T", "content": [{
+                "sectionHeadline" : "headline1",
+                "paragraphs" : [
+                    "stringOfCharacters......",
+                    "Hey here's some more characters!"
+                ]
+            },
+            {
+                "sectionHeadline" : "headline2",
+                "paragraphs" : [
+                    "stringOfCharacters......",
+                    "Hey here's some more characters!"
+                ]
+            }], 
+            "image": "images/crashpad_2500.jpg", "alt" : "alt text", "summary": "text" 
+        }  
+
 ]
 

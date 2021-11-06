@@ -8,14 +8,14 @@ function createPost() {
 
 
 window.addEventListener("load", async function() {
-    const test = document.getElementById("test");
-    let data = await myDataService.getContent("js/post.json");
-    test.innerHTML = data[0].content[0].paragraphs[0];
+    // const test = document.getElementById("test");
+    // let data = await myDataService.getContent("js/post.json");
+    // test.innerHTML = data[0].content[0].paragraphs[0];
 
-    const queryString = window.location.search;
-    const urlParams =  new URLSearchParams(queryString);
-    console.log(queryString);
-    const slug = urlParams.get('slug');
-    console.log(slug);
+    // const queryString = window.location.search;
+    // const urlParams =  new URLSearchParams(queryString);
+    // console.log(queryString);
+    // const slug = urlParams.get('slug');
+    // console.log(slug);
 });
 

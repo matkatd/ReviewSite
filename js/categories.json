@@ -1,27 +1,32 @@
    {
         "hiking" : {
-            "img" : "image.jpeg",
+            "img" : "images/hikingPano_2500.jpg",
             "alt" : "alt text",
             "description" : "Hiking is pretty cool stuff"
         },
         "biking" : {
-            "img" : "image.jpeg",
+            "img" : "images/bikePano_2500.jpg",
             "alt" : "alt text",
             "description" : "Biking is pretty cool stuff"
         },
         "climbing" : {
-            "img" : "image.jpeg",
+            "img" : "images/climbPano_2500.jpg",
             "alt" : "alt text",
             "description" : "Climbing is pretty cool stuff"
         },
         "camping" : {
-            "img" : "image.jpeg",
+            "img" : "images/campPano_2500.jpg",
             "alt" : "alt text",
             "description" : "Camping is pretty cool stuff"
         },
         "water" : {
-            "img" : "image.jpeg",
+            "img" : "images/waterPano_2500.jpg",
             "alt" : "alt text",
             "description" : "Water is pretty cool stuff"
+        },
+        "winter" : {
+            "img" : "images/winterPano_2500.jpg",
+            "alt" : "alt text",
+            "description" : "Snow is pretty cool stuff"
         }
   }
