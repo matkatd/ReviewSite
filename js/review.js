@@ -29,6 +29,6 @@ window.addEventListener("load", async function() {
     const slug = utils.getParams("slug");
     console.log(slug);
 
-    const selectArticle = await myDataService.getBySlug("js/post.json", slug);
+    const selectArticle = await myDataService.getBySlug("content.json", slug);
     buildReview(selectArticle);
 });

@@ -4,12 +4,27 @@
 }
 @font-face {
   font-family: existence;
-  src: url("fonts/existence/ExiL-T1/Existence-Light.PFB");
+  src: url("fonts/existence/ExiL-OT/Existence-Light.otf");
 }
 
 @font-face {
   font-family: LG-cafe;
   src: url("fonts/louis_george_caf/Louis\ George\ Cafe.ttf");
+}
+
+@font-face {
+  font-family: westmeath;
+  src: url("fonts/westmeath/Westmeath.ttf");
+}
+
+@font-face {
+  font-family: alph;
+  src: url("fonts/alph.ttf");
+}
+
+@font-face {
+  font-family: goldsmith;
+  src: url("fonts/the_goldsmith_vintage/The\ Goldsmith_Vintage.ttf");
 }
 
 :root {
@@ -22,13 +37,19 @@
 
 header {
   box-shadow: 0px 5px 4px grey;
+  background-color: white;
+  padding-top: 1px;
 }
 
 body {
   font-size: 1em;
-  max-width: 1080px;
+  max-width: 1600px;
   margin: auto;
   background-color: #f2f2f2;
+}
+
+main {
+  padding: 10px;
 }
 
 img {
@@ -44,9 +65,9 @@ footer {
 }
 
 h1 {
-  font-family: wandertucker;
+  font-family: goldsmith;
 
-  font-size: 300%;
+  font-size: 450%;
   margin-bottom: 0px;
 }
 
@@ -56,6 +77,7 @@ h1 {
 
 h2 {
   font-family: LG-cafe;
+  font-size: 200%;
 }
 
 h3 {
@@ -84,14 +106,12 @@ a {
 
 #thumbnailGrid {
   margin-top: 10px;
-
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  gap: 10px;
 }
 
 .thumbnail {
-  /* border: #a69595 solid 1px; */
+  border: darkgrey solid 1px;
   background-color: white;
 }
 
@@ -207,6 +227,10 @@ nav li a:hover {
 @media only screen and (min-width: 768px) {
   #topics {
     display: none;
+  }
+
+  #thumbnailGrid {
+    display: grid;
   }
 
   .bio-grid {

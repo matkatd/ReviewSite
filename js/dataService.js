@@ -22,20 +22,20 @@ export default class DataService {
 
     /** Returns data filtered by category of review */
     async getByCategory(url, category) {
-        const content = await this.getContent(url);
-        const filtered = content.filter((item) => item.category === category);
-        return filtered;
+        const content = await this.getContent(baseUrl + url + `?orderBy="category"&equalTo="${category}"`);
+        //const filtered = content.filter((item) => item.category === category);
+        return [...Object.values(content)];
     }
     /** Returns data attached to object with given slug */
     async getBySlug(url, slug) {
-        const content = await this.getContent(url);
+        const content = await this.getContent(baseUrl + url);
         const find = content.find((item) => item.slug === slug);
         return find;
     }
 
     /** Returns object with given category */
     async getCategoryDetails(url, category) {
-        const content = await this.getContent(url);
+        const content = await this.getContent(baseUrl + url);
         return content[category];
     }
 };

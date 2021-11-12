@@ -59,7 +59,7 @@
                     "stringOfCharacters......",
                     "Hey here's some more characters!"
                 ]
-            }], "image": "images/bikingSunset@0.5x.jpg", "alt" : "alt text", "summary": "text" 
+            }], "image": "images/bikingSunset@0.5x.jpg", "alt" : "Orange mountain bike pedals", "summary": "text" 
         },
         {
             "slug" : "fixture", "title": "Giro Fixture", "category": "biking", "date": "10/23/2021", "author": "David T", "content": [{
@@ -76,7 +76,7 @@
                     "Hey here's some more characters!"
                 ]
             }], 
-            "image": "images/fixture.jpeg", "alt" : "alt text", "summary": "text" 
+            "image": "images/fixture.jpg", "alt" : "A red mountain bike helmet", "summary": "text" 
         } ,
         {
             "slug" : "ramblers", "title": "Astral Designs Rambler", "category": "hiking", "date": "10/23/2021", "author": "David T", "content": [{
@@ -93,7 +93,7 @@
                     "Hey here's some more characters!"
                 ]
             }], 
-            "image": "images/ramblers_2500.jpg", "alt" : "alt text", "summary": "text" 
+            "image": "images/ramblers_1080.jpg", "alt" : "A grey shoe on a grey rock", "summary": "text" 
         },
         {
             "slug" : "miuras", "title": "La Sportiva Miura Lace", "category": "climbing", "date": "10/23/2021", "author": "David T", "content": [{
@@ -110,7 +110,7 @@
                     "Hey here's some more characters!"
                 ]
             }], 
-            "image": "images/miuras_2500.jpg", "alt" : "alt text", "summary": "text" 
+            "image": "images/miuras_1080.jpg", "alt" : "A guy doing a sick heel hook on a boulder with yellow climbing shoes", "summary": "text" 
             },
             {
                 "slug" : "fenix5", "title": "Garmin Fēnix 5", "category": "hiking", "date": "10/23/2021", "author": "David T", "content": [{
@@ -127,10 +127,10 @@
                         "Hey here's some more characters!"
                     ]
                 }], 
-                "image": "images/watch_2500.jpg", "alt" : "alt text", "summary": "text" 
+                "image": "images/watch_1080.jpg", "alt" : "A smart sports watch on a man's wrist", "summary": "text" 
             },
             {
-                "slug" : "crashpad", "title": "Black Diamond Crash Pad", "category": "climbing", "date": "10/23/2021", "author": "David T", "content": [{
+                "slug" : "crashpad", "title": "Black Diamond Circuit Crash Pad", "category": "climbing", "date": "10/23/2021", "author": "David T", "content": [{
                     "sectionHeadline" : "headline1",
                     "paragraphs" : [
                         "stringOfCharacters......",
@@ -144,39 +144,39 @@
                         "Hey here's some more characters!"
                     ]
                 }], 
-                "image": "images/crashpad_2500.jpg", "alt" : "alt text", "summary": "text" 
+                "image": "images/crashpad_1080.jpg", "alt" : "A black and purple foam pad next to a boulder", "summary": "text" 
             }  
     
     ], 
     "categories" :    {
         "hiking" : {
             "img" : "images/hikingPano_2500.jpg",
-            "alt" : "alt text",
+            "alt" : "A green oasis inside the red sandstone Orderville canyon",
             "description" : "Hiking is pretty cool stuff"
         },
         "biking" : {
             "img" : "images/bikePano_2500.jpg",
-            "alt" : "alt text",
+            "alt" : "A black mountain bike next to a trail in a sagebrush desert",
             "description" : "Biking is pretty cool stuff"
         },
         "climbing" : {
             "img" : "images/climbPano_2500.jpg",
-            "alt" : "alt text",
+            "alt" : "A climber on a red limestone wall",
             "description" : "Climbing is pretty cool stuff"
         },
         "camping" : {
             "img" : "images/campPano_2500.jpg",
-            "alt" : "alt text",
+            "alt" : "Campers in a forest",
             "description" : "Camping is pretty cool stuff"
         },
         "water" : {
             "img" : "images/waterPano_2500.jpg",
-            "alt" : "alt text",
+            "alt" : "Kayakers on the crystal blue water of the Middle Fork of the Salmon",
             "description" : "Water is pretty cool stuff"
         },
         "winter" : {
             "img" : "images/winterPano_2500.jpg",
-            "alt" : "alt text",
+            "alt" : "The sun bursts through a dense snowy forest",
             "description" : "Snow is pretty cool stuff"
         }
   }

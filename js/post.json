@@ -42,7 +42,7 @@
             "paragraphs" : [
                 "With the 2021 “entry level” Timberjack starting at only $1800 (and you can find older models closer to $1100) this bike is a steal. With all the features you need to start shredding gnar, the Timberjack will take you to the trails and beyond."
             ]
-        }], "image": "images/SalsaTimberjack_2500.jpg", "alt" : "Black mountain bike in front of a trail sign in the woods", "summary": "text" 
+        }], "image": "images/SalsaTimberjack_1080.jpg", "alt" : "Black mountain bike in front of a trail sign in the woods", "summary": "text" 
     },
     {
         "slug" : "1UP_flats", "title": "1Up Flats", "category": "biking", "date": "10/23/2021", "author": "David T", "content": [{
@@ -92,7 +92,7 @@
                 "Hey here's some more characters!"
             ]
         }], 
-        "image": "images/ramblers_2500.jpg", "alt" : "alt text", "summary": "text" 
+        "image": "images/ramblers_1080.jpg", "alt" : "alt text", "summary": "text" 
     },
     {
         "slug" : "miuras", "title": "La Sportiva Miura Lace", "category": "climbing", "date": "10/23/2021", "author": "David T", "content": [{
@@ -109,7 +109,7 @@
                 "Hey here's some more characters!"
             ]
         }], 
-        "image": "images/miuras_2500.jpg", "alt" : "alt text", "summary": "text" 
+        "image": "images/miuras_1080.jpg", "alt" : "alt text", "summary": "text" 
         },
         {
             "slug" : "fenix5", "title": "Garmin Fēnix 5", "category": "hiking", "date": "10/23/2021", "author": "David T", "content": [{
@@ -126,7 +126,7 @@
                     "Hey here's some more characters!"
                 ]
             }], 
-            "image": "images/watch_2500.jpg", "alt" : "alt text", "summary": "text" 
+            "image": "images/watch_1080.jpg", "alt" : "alt text", "summary": "text" 
         },
         {
             "slug" : "crashpad", "title": "Black Diamond Crash Pad", "category": "climbing", "date": "10/23/2021", "author": "David T", "content": [{
@@ -143,7 +143,7 @@
                     "Hey here's some more characters!"
                 ]
             }], 
-            "image": "images/crashpad_2500.jpg", "alt" : "alt text", "summary": "text" 
+            "image": "images/crashpad_1080.jpg", "alt" : "alt text", "summary": "text" 
         }  
 
 ]
