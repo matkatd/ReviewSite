@@ -43,7 +43,7 @@
                 "paragraphs" : [
                     "With the 2021 “entry level” Timberjack starting at only $1800 (and you can find older models closer to $1100) this bike is a steal. With all the features you need to start shredding gnar, the Timberjack will take you to the trails and beyond."
                 ]
-            }], "image": "images/SalsaTimberjack_2500.jpg", "alt" : "Black mountain bike in front of a trail sign in the woods", "summary": "text" 
+            }], "image": "images/SalsaTimberjack_1080.jpg", "alt" : "Black mountain bike in front of a trail sign in the woods", "summary": "text" 
         },
         {
             "slug" : "1UP_flats", "title": "1Up Flats", "category": "biking", "date": "10/23/2021", "author": "David T", "content": [{
@@ -150,32 +150,32 @@
     ], 
     "categories" :    {
         "hiking" : {
-            "img" : "images/hikingPano_2500.jpg",
+            "img" : "images/hikingPano_1080.jpg",
             "alt" : "A green oasis inside the red sandstone Orderville canyon",
             "description" : "Hiking is pretty cool stuff"
         },
         "biking" : {
-            "img" : "images/bikePano_2500.jpg",
+            "img" : "images/bikePano_1080.jpg",
             "alt" : "A black mountain bike next to a trail in a sagebrush desert",
             "description" : "Biking is pretty cool stuff"
         },
         "climbing" : {
-            "img" : "images/climbPano_2500.jpg",
+            "img" : "images/climbPano_1080.jpg",
             "alt" : "A climber on a red limestone wall",
             "description" : "Climbing is pretty cool stuff"
         },
         "camping" : {
-            "img" : "images/campPano_2500.jpg",
+            "img" : "images/campPano_1080.jpg",
             "alt" : "Campers in a forest",
             "description" : "Camping is pretty cool stuff"
         },
         "water" : {
-            "img" : "images/waterPano_2500.jpg",
+            "img" : "images/waterPano_1080.jpg",
             "alt" : "Kayakers on the crystal blue water of the Middle Fork of the Salmon",
             "description" : "Water is pretty cool stuff"
         },
         "winter" : {
-            "img" : "images/winterPano_2500.jpg",
+            "img" : "images/winterPano_1080.jpg",
             "alt" : "The sun bursts through a dense snowy forest",
             "description" : "Snow is pretty cool stuff"
         }
