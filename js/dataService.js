@@ -20,6 +20,20 @@ export default class DataService {
       });
   }
 
+  async getByContent(url) {
+    const content = await this.getContent(baseUrl + url);
+    content.sort((firstItem, secondItem) => {
+      if (firstItem.date > secondItem.date) {
+        return -1;
+      }
+      if (firstItem.date < secondItem.date) {
+        return 1;
+      }
+      return 0;
+    });
+    return content;
+  }
+
   async postCategory(url) {
     // Checking to see if firebase write rules are secure
     let options = {

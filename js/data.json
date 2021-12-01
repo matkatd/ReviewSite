@@ -49,7 +49,7 @@
             "slug" : "1UP_flats", "title": "1Up Flats", "category": "biking", "date": "10/23/2021", "author": "David T", "content": [{
                 "sectionHeadline" : "headline1",
                 "paragraphs" : [
-                    "stringOfCharacters......",
+                    "In the world of Mountain Biking, it is usually recommended that the first pieces of hardware you should replace are the points of contact. Things like tires (or tyres for you Europeans out there) handlebar grips, saddles, and pedals. Upgrading your pedals can make a world of difference. No longer will your shoes be slipping of those cheap plastic pedals that come standard on most entry-mid level bikes.",
                     "Hey here's some more characters!"
                 ]
             },
@@ -65,7 +65,7 @@
             "slug" : "fixture", "title": "Giro Fixture", "category": "biking", "date": "10/23/2021", "author": "David T", "content": [{
                 "sectionHeadline" : "headline1",
                 "paragraphs" : [
-                    "stringOfCharacters......",
+                    "Helmets are one thing that you should never skimp on, it's your life after all.",
                     "Hey here's some more characters!"
                 ]
             },
@@ -82,7 +82,7 @@
             "slug" : "ramblers", "title": "Astral Designs Rambler", "category": "hiking", "date": "10/23/2021", "author": "David T", "content": [{
                 "sectionHeadline" : "headline1",
                 "paragraphs" : [
-                    "stringOfCharacters......",
+                    "Most of you have probably never heard of the brand Astral Designs, but the loss is entirely yours. Astral makes some of the BEST outdoor shoes and lifejackets. While all their products do have premium prices, the quality, comfort, and durability are nearly priceless.",
                     "Hey here's some more characters!"
                 ]
             },
@@ -97,34 +97,69 @@
         },
         {
             "slug" : "miuras", "title": "La Sportiva Miura Lace", "category": "climbing", "date": "10/23/2021", "author": "David T", "content": [{
-                "sectionHeadline" : "headline1",
+                "sectionHeadline" : "Introduction",
                 "paragraphs" : [
-                    "stringOfCharacters......",
-                    "Hey here's some more characters!"
+                    "What if there was a climbing shoe that could do everything? A shoe that could send a tricky boulder problem just as well as a lengthy sport route. A shoe that gave you Spiderman like powers while feeling like a down slipper. That shoe could save the world…",
+                    "Well, unfortunately that kind of shoe doesn’t exist. Sorry ‘bout that. But even if a shoe that magical did exist, what makes you think you’re worthy of that power?",
+                    "Anyways, the La Sportiva Miura Lace is probably the closest thing you’ll get to that mythical super-shoe. With a spicy yellow color scheme, a super-efficient lacing system, and a powerful aggressive shape, the Miura is a powerhouse of a climbing shoe."
                 ]
             },
             {
-                "sectionHeadline" : "headline2",
+                "sectionHeadline" : "Features",
                 "paragraphs" : [
-                    "stringOfCharacters......",
-                    "Hey here's some more characters!"
+                    "The Miura is a masterfully crafted Italian leather climbing shoe (sounds fancy, right?) with an aggressive downturn and great fit. Sportiva’s speed lacing system allows for a perfect fit every single time, and the venerable Vibram XSEdge rubber works wonders.",
+                    "I wear a size 42 street shoe (size 9 for the uncultured Americans like me) and I sized down to a 41 in the Miuras. I probably could have gone down to a 40 or 40.5 and still been decently comfortable."
                 ]
-            }], 
+            },
+            {
+                "sectionHeadline" : "Experience",
+                "paragraphs" : [
+                    "I’ve had these shoes for about 7 months at the time of writing, and they are holding up wonderfully. I’ve climbed in the gym as well as the limestone and dolomite of the Wasatch range and the beautiful red sandstone of Southern Utah and have always been impressed. These shoes are infinitely more capable than I am and will be used until the seams start falling apart.",
+                    "As far as performance goes, the Miuras are pretty good at everything. I’m always happy with how they heel and toe hook, and they have amazing sensitivity for standing on very small holds. One area where I have not seen top performance is smearing. While this may have something to do with the rock I’m climbing on (limestone can be very smooth sometimes), I think it is just not the strong suite of the rubber."
+                ]
+            },
+            {
+                "sectionHeadline" : "Conclusion",
+                "paragraphs" : [
+                    "Coming in at $165, these shoes are not cheap. However, compared to the prices of other top level climbing shoes like the Genius or Futura, they are a steal. For those looking at a more budget oriented shoe that still delivers, I would recommend looking at the La Sportiva Finale. While a fairly flat-soled shoe, they are ridiculously comfortable while still offering great power and performance"
+                ]
+            }
+            
+        ], 
             "image": "images/miuras_1080.jpg", "alt" : "A guy doing a sick heel hook on a boulder with yellow climbing shoes", "summary": "text" 
             },
             {
-                "slug" : "fenix5", "title": "Garmin Fēnix 5", "category": "hiking", "date": "10/23/2021", "author": "David T", "content": [{
-                    "sectionHeadline" : "headline1",
+                "slug" : "fenix5", "title": "Garmin fēnix 5", "category": "hiking", "date": "10/23/2021", "author": "David T", "content": [{
+                    "sectionHeadline" : "Introduction",
                     "paragraphs" : [
-                        "stringOfCharacters......",
-                        "Hey here's some more characters!"
+                        "For the longest time, the only watch I owned was a simple analog watch that I got off Amazon for 25 bucks. I had my last one for over three years, and while I had replaced the leather band a couple times, the watch itself showed no signs of giving out. However, this past summer as I went on more adventures than I had gone on in any previous year, I started wishing that my watch did a little more than tell time.",
+                        "So I started going over the features I thought I needed:",
+                        "I needed a watch with GPS topo maps to keep me from getting lost. I needed a long battery life for extended adventures. I needed a rugged exterior that could take a beating but still look stylish. And finally, I needed a watch that could tell me the time really, really well.",
+                        "After I had my list, I started looking at sport watches that met my criteria. Turns out the brand-new models are REALLY expensive, at least for a dirt-bag like me. I was getting worried that I wouldn’t be able to afford the watch I needed, until I looked at used watches."
                     ]
                 },
                 {
-                    "sectionHeadline" : "headline2",
+                    "sectionHeadline" : "Sidenote:",
                     "paragraphs" : [
-                        "stringOfCharacters......",
-                        "Hey here's some more characters!"
+                        "(I rarely pay full price for anything. I stalk gear sites for deals and coupons, and I scour the web for deals on used gear. The only reason why I have any of the gear I review is because I usually find them for insanely low prices.)"
+                    ]
+                },
+                {
+                    "sectionHeadline" : "Garmin fenix 5",
+                    "paragraphs" : [
+                        "I finally found the watch I was looking for on a used electronics site for $200! Brand new, the Fenix 5 was over $500, so I was excited to find it for less than half the original price. There are quite a few of them over the internet for similar prices as well, so if you can’t fork up the $600+ for a shiny new Fenix 6, this is the way to go."
+                    ]
+                },
+                {
+                    "sectionHeadline" : "Features",
+                    "paragraphs" : [
+                        "The Fenix 5 has super accurate GPS, as well as built in Topo maps for your region of the world. It has trackers for most sports (except rock climbing…) and constant heart-rate monitoring. It’s rugged, has an incredible battery life (13 days normal use, 17 hours constant GPS use) and just looks steezy. And finally, it tells the time really, really well."
+                    ]
+                },
+                {
+                    "sectionHeadline" : "Conclusion",
+                    "paragraphs" : [
+                        "If you are hesitating about purchasing a Garmin Fenix, I hope this will help you to see that it is a truly fantastic tool. It does everything that I need it to do without feeling overwhelming. It integrates into my life rather than distract from the experience."
                     ]
                 }], 
                 "image": "images/watch_1080.jpg", "alt" : "A smart sports watch on a man's wrist", "summary": "text" 
@@ -133,7 +168,7 @@
                 "slug" : "crashpad", "title": "Black Diamond Circuit Crash Pad", "category": "climbing", "date": "10/23/2021", "author": "David T", "content": [{
                     "sectionHeadline" : "headline1",
                     "paragraphs" : [
-                        "stringOfCharacters......",
+                        "Bouldering is one of the greatest sports ever thought of, at least in my opinion. It tests your strength, dexterity, problem solving skills, and most of all, patience. The Black Diamond Circuit pad allows you to take your bouldering outside safely.",
                         "Hey here's some more characters!"
                     ]
                 },
@@ -145,37 +180,129 @@
                     ]
                 }], 
                 "image": "images/crashpad_1080.jpg", "alt" : "A black and purple foam pad next to a boulder", "summary": "text" 
-            }  
+            },
+            {
+                "slug" : "stove", "title": "Olicamp Kinetic Ultra Titanium", "category": "camping", "date": "11/23/2021", "author": "David T", "content": [{
+                    "sectionHeadline" : "Introduction",
+                    "paragraphs" : [
+                        "A 1.7oz titanium camping stove that doesn't break the bank? It sounds impossible, but let me introduce you to the Olicamp Kinetic Ultra Titanium!",
+                        "Hey here's some more characters!"
+                    ]
+                },
+                {
+                    "sectionHeadline" : "headline2",
+                    "paragraphs" : [
+                        "stringOfCharacters......",
+                        "Hey here's some more characters!"
+                    ]
+                }], 
+                "image": "images/camping_stove_1080.jpg", "alt" : "A man making food on a camping stove on the ground", "summary": "text" 
+            },
+            {
+                "slug" : "jitsu", "title": "Dagger Jitsu", "category": "water", "date": "11/20/2021", "author": "David T", "content": [{
+                    "sectionHeadline" : "Introduction",
+                    "paragraphs" : [
+                        "*Majestic hair not required to paddle this boat*",
+                        "Hey here's some more characters!"
+                    ]
+                },
+                {
+                    "sectionHeadline" : "headline2",
+                    "paragraphs" : [
+                        "stringOfCharacters......",
+                        "Hey here's some more characters!"
+                    ]
+                }], 
+                "image": "images/jitsu_1080.jpg", "alt" : "A kayaker rocking his bow into the air", "summary": "text" 
+            },
+            {
+                "slug" : "backcountry-skis", "title": "Rossignol Backcountry Skis", "category": "winter", "date": "11/15/2021", "author": "David T", "content": [{
+                    "sectionHeadline" : "Introduction",
+                    "paragraphs" : [
+                        "There's something about gliding through a fresh layer of snow, making parallel tracks through the frost covered trees.",
+                        "Hey here's some more characters!"
+                    ]
+                },
+                {
+                    "sectionHeadline" : "headline2",
+                    "paragraphs" : [
+                        "stringOfCharacters......",
+                        "Hey here's some more characters!"
+                    ]
+                }], 
+                "image": "images/rossignol_1080.jpg", "alt" : "A pair of skis leaning against a snow covered fence", "summary": "text" 
+            },
+            {
+                "slug" : "sleds", "title": "Plastic Sleds", "category": "winter", "date": "11/19/2021", "author": "David T", "content": [{
+                    "sectionHeadline" : "Introduction",
+                    "paragraphs" : [
+                        "In every culture you will find legends of a mystical method of locomotion, transporting its riders effortlessly down snowy hills. Pictured above is the epitome of winter transportation, the majestic plastic sled.",
+                        "Hey here's some more characters!"
+                    ]
+                },
+                {
+                    "sectionHeadline" : "headline2",
+                    "paragraphs" : [
+                        "stringOfCharacters......",
+                        "Hey here's some more characters!"
+                    ]
+                }], 
+                "image": "images/sled_1080.jpg", "alt" : "A purple and an orange sled standing in the snow", "summary": "text" 
+            }          
     
     ], 
     "categories" :    {
         "hiking" : {
-            "img" : "images/hikingPano_1080.jpg",
+            "img" : [{"src": "images/hikingPano_1080.jpg",
+                "width": 1080
+                }, 
+                {"src": "images/hikingPano_mobile.jpg",
+                "width": 768}],
             "alt" : "A green oasis inside the red sandstone Orderville canyon",
             "description" : "Hiking is pretty cool stuff"
         },
         "biking" : {
-            "img" : "images/bikePano_1080.jpg",
+            "img" : [{"src": "images/bikePano_1080.jpg",
+                "width": 1080
+                }, 
+                {"src": "images/bikePano_mobile.jpg",
+                "width": 768}],
             "alt" : "A black mountain bike next to a trail in a sagebrush desert",
             "description" : "Biking is pretty cool stuff"
         },
         "climbing" : {
-            "img" : "images/climbPano_1080.jpg",
+            "img" : [{"src": "images/climbPano_1080.jpg",
+                "width": 1080
+                }, 
+                {"src": "images/climbPano_mobile.jpg",
+                "width": 768}],
             "alt" : "A climber on a red limestone wall",
             "description" : "Climbing is pretty cool stuff"
         },
         "camping" : {
-            "img" : "images/campPano_1080.jpg",
+            "img" : [{"src": "images/campPano_1080.jpg",
+                "width": 1080
+                }, 
+                {"src": "images/campPano_mobile.jpg",
+                "width": 768}],
             "alt" : "Campers in a forest",
             "description" : "Camping is pretty cool stuff"
         },
         "water" : {
-            "img" : "images/waterPano_1080.jpg",
+            "img" : [{"src": "images/waterPano_1080.jpg",
+                "width": 1080
+                }, 
+                {"src": "images/waterPano_mobile.jpg",
+                "width": 768}],
             "alt" : "Kayakers on the crystal blue water of the Middle Fork of the Salmon",
             "description" : "Water is pretty cool stuff"
         },
         "winter" : {
-            "img" : "images/winterPano_1080.jpg",
+            "img" : [{"src": "images/winterPano_1080.jpg",
+                "width": 1080
+                }, 
+                {"src": "images/winterPano_mobile.jpg",
+                "width": 768}],
             "alt" : "The sun bursts through a dense snowy forest",
             "description" : "Snow is pretty cool stuff"
         }

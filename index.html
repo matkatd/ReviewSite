@@ -14,6 +14,7 @@
         <ul id="topics">
           <li>
             Topics
+
             <ul id="topics-menu">
               <li><a href="landing.html?category=biking">Biking</a></li>
               <li><a href="landing.html?category=camping">Camping</a></li>
@@ -41,24 +42,21 @@
         <h2 id="tagline">High quality reviews for high quality adventures</h2>
         <img
           id="home-hero"
+          srcset="
+            images/brycePano_2500.jpg   2500w,
+            images/brycePano_mobile.jpg 1080w
+          "
+          sizes=" (min-width: 768px) 2500px,
+                  1080px"
           src="images/brycePano_2500.jpg"
           alt="Panorama of hikers on a trail in Bryce Canyon"
         />
       </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel
-        neque et neque tincidunt accumsan. Aenean tristique leo eget libero
-        condimentum varius. Fusce tristique nulla vitae lacus interdum congue.
-        Mauris tincidunt pulvinar turpis ut rhoncus. Praesent in purus in tortor
-        faucibus aliquet. Donec sagittis accumsan ligula id facilisis. Cras id
-        sollicitudin arcu. Ut eget odio pulvinar, tincidunt ante ut, pretium
-        magna. Sed dictum orci nulla, sit amet feugiat lorem pharetra vel. Morbi
-        in tellus sem. Duis fringilla venenatis lectus, vel accumsan tellus
-        viverra a. Donec vulputate, nisi non mollis mattis, quam nisi aliquam
-        leo, vitae fringilla leo metus quis odio. Praesent fermentum nisl vitae
-        tortor accumsan, quis consequat libero semper. Ut non vulputate lacus.
-        Aenean sit amet commodo lacus, ut faucibus diam.
-      </p>
+      <h3 class="welcome-text">
+        Welcome to Precipice Ponderings! Below you'll find my latest reviews on
+        my favorite gear.
+      </h3>
+      <section id="thumbnailGrid"></section>
     </main>
     <footer>
       <p>Precipice Ponderings ©2021</p>

@@ -112,7 +112,7 @@
         "image": "images/miuras_1080.jpg", "alt" : "alt text", "summary": "text" 
         },
         {
-            "slug" : "fenix5", "title": "Garmin Fēnix 5", "category": "hiking", "date": "10/23/2021", "author": "David T", "content": [{
+            "slug" : "fenix5", "title": "Garmin Fēnix 5", "category": "hiking", "date": "11/22/2021", "author": "David T", "content": [{
                 "sectionHeadline" : "headline1",
                 "paragraphs" : [
                     "stringOfCharacters......",

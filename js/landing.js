@@ -1,12 +1,23 @@
 import DataService from "./dataService.js";
 import utils from "./utils.js";
+const { getParams, clickMenu } = utils;
 const myDataService = new DataService();
+
+function generateSrcset(imgArray) {
+  if (typeof imgArray === "Array") {
+    const newArray = imgArray.map((image) => `${image.src} ${image.width}w`);
+    return newArray.join();
+  } else return " ";
+}
 
 /** Dynamically builds a review landing page */
 function buildPage(data, category, categoryData) {
   document.querySelector("#activityName").textContent = category;
   document.querySelector(".description").textContent = categoryData.description;
-  document.querySelector("#landingHero").src = categoryData.img;
+  document.querySelector("#landingHero").src = categoryData.img[0].src;
+  document.querySelector("#landingHero").srcset = generateSrcset(
+    categoryData.img
+  );
   document.querySelector("#landingHero").alt = categoryData.alt;
   const section = document.querySelector("#thumbnailGrid");
 
@@ -27,7 +38,7 @@ function buildThumbnail(data) {
 }
 
 window.addEventListener("load", async function () {
-  const category = utils.getParams("category");
+  const category = getParams("category");
 
   const allArticles = await myDataService.getByCategory(
     "content.json",
@@ -40,3 +51,5 @@ window.addEventListener("load", async function () {
   // myDataService.postCategory("categories.json");
   buildPage(allArticles, category, aCategory);
 });
+const menu = document.querySelector("#topics");
+clickMenu(menu);

@@ -162,10 +162,15 @@ li {
 }
 
 #topics-menu {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  cursor: pointer;
+  padding-top: 10px;
+
   padding-left: 0px;
   margin-top: 10px;
   font-size: 0.9em;
+  transition: all 0.2s;
 }
 
 #topics-desktop {
@@ -177,8 +182,19 @@ nav li a:hover {
   color: black;
 }
 
-#topics:hover ul {
-  display: block;
+#topics {
+  cursor: pointer;
+}
+
+#topics-menu.open {
+  display: block; /* class open is being applied to */
+  height: 300px;
+  border-top: black solid 1px;
+  text-align: center;
+  position: relative;
+}
+
+.welcome-text {
   text-align: center;
 }
 
@@ -195,17 +211,9 @@ nav li a:hover {
 }
 
 .bio-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 40% 10% 60%;
-  gap: 120px 20px;
+  display: flex;
+  flex-wrap: wrap;
   font-size: 120%;
-}
-
-#bio-img {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  contain: strict;
 }
 
 .bio-text {
@@ -233,7 +241,17 @@ nav li a:hover {
   }
 
   .bio-grid {
-    grid-gap: 20px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40% 10% 60%;
+    gap: 120px 20px;
+    font-size: 120%;
+  }
+
+  #bio-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    /* contain: strict; */
   }
 
   #topics-desktop {
