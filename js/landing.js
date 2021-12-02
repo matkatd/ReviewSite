@@ -4,10 +4,10 @@ const { getParams, clickMenu } = utils;
 const myDataService = new DataService();
 
 function generateSrcset(imgArray) {
-  if (typeof imgArray === "Array") {
-    const newArray = imgArray.map((image) => `${image.src} ${image.width}w`);
-    return newArray.join();
-  } else return " ";
+  // if (typeof imgArray === "array") {
+  const newArray = imgArray.map((image) => `${image.src} ${image.width}w`);
+  return newArray.join();
+  // } else return " ";
 }
 
 /** Dynamically builds a review landing page */
