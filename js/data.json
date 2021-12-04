@@ -1,7 +1,7 @@
 {
     "content" : [
         {
-            "slug" : "kestrel", "title": "Osprey Kestrel 32", "category": "hiking", "date": "11/2/2021", "author": "David T", "content": [{
+            "slug" : "kestrel", "title": "Osprey Kestrel 32", "category": "hiking", "date": "11/25/2021", "author": "David T", "content": [{
                 "sectionHeadline" : "Introduction",
                 "paragraphs" : [
                     "What’s in name? Well, when it comes to Osprey packs, quite a lot. Famous for their “All Mighty Guarantee” (which you’ll rarely need because of the bomber nature of their packs) an Osprey pack is a quality pack. One of my personal favorites is their Kestrel pack. I have the 32L size (they don’t make that size anymore, but the next closest model would be the Talon 33) and have LOVED it. It’s the perfect size for full day hikes, bike rides, ski trips, road trips, or any other kind of adventure you have in mind."
@@ -47,56 +47,34 @@
         },
         {
             "slug" : "1UP_flats", "title": "1Up Flats", "category": "biking", "date": "10/23/2021", "author": "David T", "content": [{
-                "sectionHeadline" : "headline1",
+                "sectionHeadline" : "Introduction",
                 "paragraphs" : [
-                    "In the world of Mountain Biking, it is usually recommended that the first pieces of hardware you should replace are the points of contact. Things like tires (or tyres for you Europeans out there) handlebar grips, saddles, and pedals. Upgrading your pedals can make a world of difference. No longer will your shoes be slipping of those cheap plastic pedals that come standard on most entry-mid level bikes.",
-                    "Hey here's some more characters!"
+                    "In the world of Mountain Biking, it is usually recommended that the first pieces of hardware you should replace are the points of contact. Things like tires (or tyres for you Europeans out there) handlebar grips, saddles, and pedals. Upgrading your pedals can make a world of difference. No longer will your shoes be slipping of those cheap plastic pedals that come standard on most entry-mid level bikes. A nice pair of pedals with allow you to shred gnar with more confidence than ever."
                 ]
-            },
-            {
-                "sectionHeadline" : "headline2",
-                "paragraphs" : [
-                    "stringOfCharacters......",
-                    "Hey here's some more characters!"
-                ]
-            }], "image": "images/bikingSunset@0.5x.jpg", "alt" : "Orange mountain bike pedals", "summary": "text" 
+            }], "image": "images/1Up_1080.jpg", "alt" : "Orange mountain bike pedals", "summary": "text" 
         },
         {
             "slug" : "fixture", "title": "Giro Fixture", "category": "biking", "date": "10/23/2021", "author": "David T", "content": [{
-                "sectionHeadline" : "headline1",
+                "sectionHeadline" : "Introduction",
                 "paragraphs" : [
                     "Helmets are one thing that you should never skimp on, it's your life after all.",
-                    "Hey here's some more characters!"
-                ]
-            },
-            {
-                "sectionHeadline" : "headline2",
-                "paragraphs" : [
-                    "stringOfCharacters......",
-                    "Hey here's some more characters!"
+                    "The Giro Fixture is a well made, good looking and well priced mountain bike helmet. It's fairly lightweight, breaths well, and includes MIPS (multi-directional impact protection system) technology."
                 ]
             }], 
-            "image": "images/fixture.jpg", "alt" : "A red mountain bike helmet", "summary": "text" 
+            "image": "images/GiroFixture_1080.jpg", "alt" : "A red mountain bike helmet", "summary": "text" 
         } ,
         {
             "slug" : "ramblers", "title": "Astral Designs Rambler", "category": "hiking", "date": "10/23/2021", "author": "David T", "content": [{
-                "sectionHeadline" : "headline1",
+                "sectionHeadline" : "Introduction",
                 "paragraphs" : [
                     "Most of you have probably never heard of the brand Astral Designs, but the loss is entirely yours. Astral makes some of the BEST outdoor shoes and lifejackets. While all their products do have premium prices, the quality, comfort, and durability are nearly priceless.",
-                    "Hey here's some more characters!"
-                ]
-            },
-            {
-                "sectionHeadline" : "headline2",
-                "paragraphs" : [
-                    "stringOfCharacters......",
-                    "Hey here's some more characters!"
+                    "In addition to being well made and super comfy, the Ramblers are incredibly multi-purpose. While marketed as an approach shoe (a shoe with sticky rubber meant for the ofttimes difficult approaches needed to go rock climbing) they perform remarkably as mountain bike shoes, hiking shoes, wear-around-town shoes, and pretty much anything except a water shoe (although they wouldn't be that bad there either...)."
                 ]
             }], 
             "image": "images/ramblers_1080.jpg", "alt" : "A grey shoe on a grey rock", "summary": "text" 
         },
         {
-            "slug" : "miuras", "title": "La Sportiva Miura Lace", "category": "climbing", "date": "10/23/2021", "author": "David T", "content": [{
+            "slug" : "miuras", "title": "La Sportiva Miura Lace", "category": "climbing", "date": "11/21/2021", "author": "David T", "content": [{
                 "sectionHeadline" : "Introduction",
                 "paragraphs" : [
                     "What if there was a climbing shoe that could do everything? A shoe that could send a tricky boulder problem just as well as a lengthy sport route. A shoe that gave you Spiderman like powers while feeling like a down slipper. That shoe could save the world…",
@@ -129,7 +107,7 @@
             "image": "images/miuras_1080.jpg", "alt" : "A guy doing a sick heel hook on a boulder with yellow climbing shoes", "summary": "text" 
             },
             {
-                "slug" : "fenix5", "title": "Garmin fēnix 5", "category": "hiking", "date": "10/23/2021", "author": "David T", "content": [{
+                "slug" : "fenix5", "title": "Garmin fēnix 5", "category": "hiking", "date": "11/23/2021", "author": "David T", "content": [{
                     "sectionHeadline" : "Introduction",
                     "paragraphs" : [
                         "For the longest time, the only watch I owned was a simple analog watch that I got off Amazon for 25 bucks. I had my last one for over three years, and while I had replaced the leather band a couple times, the watch itself showed no signs of giving out. However, this past summer as I went on more adventures than I had gone on in any previous year, I started wishing that my watch did a little more than tell time.",
@@ -166,17 +144,9 @@
             },
             {
                 "slug" : "crashpad", "title": "Black Diamond Circuit Crash Pad", "category": "climbing", "date": "10/23/2021", "author": "David T", "content": [{
-                    "sectionHeadline" : "headline1",
+                    "sectionHeadline" : "Introduction",
                     "paragraphs" : [
-                        "Bouldering is one of the greatest sports ever thought of, at least in my opinion. It tests your strength, dexterity, problem solving skills, and most of all, patience. The Black Diamond Circuit pad allows you to take your bouldering outside safely.",
-                        "Hey here's some more characters!"
-                    ]
-                },
-                {
-                    "sectionHeadline" : "headline2",
-                    "paragraphs" : [
-                        "stringOfCharacters......",
-                        "Hey here's some more characters!"
+                        "Bouldering is one of the greatest sports ever thought of, at least in my opinion. It tests your strength, dexterity, problem solving skills, and most of all, patience. The Black Diamond Circuit pad allows you to take your bouldering outside safely."
                     ]
                 }], 
                 "image": "images/crashpad_1080.jpg", "alt" : "A black and purple foam pad next to a boulder", "summary": "text" 
@@ -185,15 +155,7 @@
                 "slug" : "stove", "title": "Olicamp Kinetic Ultra Titanium", "category": "camping", "date": "11/23/2021", "author": "David T", "content": [{
                     "sectionHeadline" : "Introduction",
                     "paragraphs" : [
-                        "A 1.7oz titanium camping stove that doesn't break the bank? It sounds impossible, but let me introduce you to the Olicamp Kinetic Ultra Titanium!",
-                        "Hey here's some more characters!"
-                    ]
-                },
-                {
-                    "sectionHeadline" : "headline2",
-                    "paragraphs" : [
-                        "stringOfCharacters......",
-                        "Hey here's some more characters!"
+                        "A 1.7oz titanium camping stove that doesn't break the bank? It sounds impossible, but let me introduce you to the Olicamp Kinetic Ultra Titanium!"
                     ]
                 }], 
                 "image": "images/camping_stove_1080.jpg", "alt" : "A man making food on a camping stove on the ground", "summary": "text" 
@@ -203,14 +165,7 @@
                     "sectionHeadline" : "Introduction",
                     "paragraphs" : [
                         "*Majestic hair not required to paddle this boat*",
-                        "Hey here's some more characters!"
-                    ]
-                },
-                {
-                    "sectionHeadline" : "headline2",
-                    "paragraphs" : [
-                        "stringOfCharacters......",
-                        "Hey here's some more characters!"
+                        "The Dagger Jitsu is a world renowed freestyle kayak. Built for sick tricks and surfing holes, the Jitsu will ensure you a fun time paddling."
                     ]
                 }], 
                 "image": "images/jitsu_1080.jpg", "alt" : "A kayaker rocking his bow into the air", "summary": "text" 
@@ -219,15 +174,7 @@
                 "slug" : "backcountry-skis", "title": "Rossignol Backcountry Skis", "category": "winter", "date": "11/15/2021", "author": "David T", "content": [{
                     "sectionHeadline" : "Introduction",
                     "paragraphs" : [
-                        "There's something about gliding through a fresh layer of snow, making parallel tracks through the frost covered trees.",
-                        "Hey here's some more characters!"
-                    ]
-                },
-                {
-                    "sectionHeadline" : "headline2",
-                    "paragraphs" : [
-                        "stringOfCharacters......",
-                        "Hey here's some more characters!"
+                        "There's something about gliding through a fresh layer of snow, making parallel tracks through the frost covered trees. While not the most popular winter sport, cross-country skiing is a fantastic way to stay in shape during the winter and see the majestic snowy backcountry."
                     ]
                 }], 
                 "image": "images/rossignol_1080.jpg", "alt" : "A pair of skis leaning against a snow covered fence", "summary": "text" 
@@ -236,15 +183,7 @@
                 "slug" : "sleds", "title": "Plastic Sleds", "category": "winter", "date": "11/19/2021", "author": "David T", "content": [{
                     "sectionHeadline" : "Introduction",
                     "paragraphs" : [
-                        "In every culture you will find legends of a mystical method of locomotion, transporting its riders effortlessly down snowy hills. Pictured above is the epitome of winter transportation, the majestic plastic sled.",
-                        "Hey here's some more characters!"
-                    ]
-                },
-                {
-                    "sectionHeadline" : "headline2",
-                    "paragraphs" : [
-                        "stringOfCharacters......",
-                        "Hey here's some more characters!"
+                        "In every culture you will find legends of a mystical method of locomotion, transporting its riders effortlessly down snowy hills. Pictured above is the epitome of winter transportation, the majestic plastic sled."
                     ]
                 }], 
                 "image": "images/sled_1080.jpg", "alt" : "A purple and an orange sled standing in the snow", "summary": "text" 
