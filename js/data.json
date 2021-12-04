@@ -183,10 +183,20 @@
                 "slug" : "sleds", "title": "Plastic Sleds", "category": "winter", "date": "11/19/2021", "author": "David T", "content": [{
                     "sectionHeadline" : "Introduction",
                     "paragraphs" : [
-                        "In every culture you will find legends of a mystical method of locomotion, transporting its riders effortlessly down snowy hills. Pictured above is the epitome of winter transportation, the majestic plastic sled."
+                        "In every culture you will find legends of a mystical method of locomotion, transporting its riders effortlessly (though not always painlessly) down snowy hills. Pictured above is the epitome of winter transportation, the majestic plastic sled."
                     ]
                 }], 
                 "image": "images/sled_1080.jpg", "alt" : "A purple and an orange sled standing in the snow", "summary": "text" 
+            },
+            {
+                "slug" : "penta", "title": "Singing Rock Penta", "category": "climbing", "date": "11/10/2021", "author": "David T", "content": [{
+                    "sectionHeadline" : "Introduction",
+                    "paragraphs" : [
+                        "There are usually two reasons why people don't wear helmets climbing. First, they can't afford one. Second, they own one, but they don't wear it because it's uncomfortable. Personally, neither of these are very good reasons. There are companies that make very safe entry level helmets with a decent price tag, and those same companies also make very comfortable helmets (albeit with a higher cost).",
+                        "The Singing Rock Penta is an incredibly lightweight and comfortable helmet for a decent price (can be found for $50-70 online). With a good selection of colors and a customizable and  comfortable fit, I really don't have an excuse to not wear it when climbing."
+                    ]
+                }], 
+                "image": "images/penta_1080.jpg", "alt" : "A white and red helmet on a rock", "summary": "text" 
             }          
     
     ], 
