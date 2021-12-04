@@ -11,12 +11,12 @@ function titleCase(string) {
 }
 
 function clickMenu(selector) {
-  selector.addEventListener("touchend", function (e) {
-    //add event listener not working
-    e.preventDefault();
-    const menuItem = document.querySelector("#topics-menu");
-    menuItem.classList.toggle("open");
-  });
+  // selector.addEventListener("touchend", function (e) {
+  //   //add event listener not working
+  //   e.preventDefault();
+  //   const menuItem = document.querySelector("#topics-menu");
+  //   menuItem.classList.toggle("open");
+  // });
 
   selector.addEventListener("click", function () {
     const menuItem = document.querySelector("#topics-menu");

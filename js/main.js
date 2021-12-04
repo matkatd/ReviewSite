@@ -3,7 +3,7 @@ import DataService from "./dataService.js";
 const { clickMenu } = utils;
 const myDataService = new DataService();
 
-/** Dynamically builds a review landing page */
+/** Dynamically builds a review thumbnail row */
 function buildPage(data) {
   const section = document.querySelector("#thumbnailGrid");
 
