@@ -21,17 +21,20 @@ function buildThumbnail(data) {
       </a>
     </div>`;
 }
+const path = window.location.pathname;
 
-window.addEventListener("load", async function () {
-  const data = await myDataService.getByContent("content.json");
+if (path.indexOf("about.html") < 0) {
+  window.addEventListener("load", async function () {
+    const data = await myDataService.getByContent("content.json");
 
-  console.log(data.slice(0, 3));
-  if (data.length > 3) {
-    buildPage(data.slice(0, 3));
-  } else {
-    buildPage(data);
-  }
-});
+    console.log(data.slice(0, 3));
+    if (data.length > 3) {
+      buildPage(data.slice(0, 3));
+    } else {
+      buildPage(data);
+    }
+  });
+}
 
 const menu = document.querySelector("#topics"); // makes dropdown menu clickable
 clickMenu(menu);

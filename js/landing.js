@@ -13,12 +13,28 @@ function generateSrcset(imgArray) {
 /** Dynamically builds a review landing page */
 function buildPage(data, category, categoryData) {
   document.querySelector("#activityName").textContent = category;
+  //   document.querySelector("#activityName").insertAdjacentHTML(
+  //     "afterend",
+  //     `<img
+  //   id="landingHero"
+  //   src="${categoryData.img[1].src}"
+  //   srcset="${generateSrcset(categoryData.img)}"
+  //   sizes=" (min-width: 770px) 1080px, 768px"
+  //   alt="${categoryData.alt}"
+  // />`
+  //   );
+  const image = document.createElement("img");
+  image.srcset = generateSrcset(categoryData.img);
+  image.sizes = `(min-width: 768px) 1080px, 768px`;
+  image.src = categoryData.img[1].src;
+
+  image.alt = categoryData.alt;
+
+  document
+    .querySelector("#activityName")
+    .insertAdjacentElement("afterend", image);
+
   document.querySelector(".description").textContent = categoryData.description;
-  document.querySelector("#landingHero").src = categoryData.img[0].src;
-  document.querySelector("#landingHero").srcset = generateSrcset(
-    categoryData.img
-  );
-  document.querySelector("#landingHero").alt = categoryData.alt;
   const section = document.querySelector("#thumbnailGrid");
 
   section.innerHTML += data.map((e) => buildThumbnail(e)).join("");
